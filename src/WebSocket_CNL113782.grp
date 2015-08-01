@@ -1,0 +1,19 @@
+<!--
+/******************************************************************************
+* Copyright (c) 2005, 2015  Ericsson AB
+* All rights reserved. This program and the accompanying materials
+* are made available under the terms of the Eclipse Public License v1.0
+* which accompanies this distribution, and is available at
+* http://www.eclipse.org/legal/epl-v10.html
+*
+* Contributors:
+* Gabor Szalai
+******************************************************************************/
+-->
+<!DOCTYPE TITAN_GUI_FileGroup_file>
+<FileGroup TITAN_version="3.1.pl0" >
+    <File_Group name="WebSocket_CNL113782" >
+        <File path="WebSocket_EncDec.cc" />
+        <File path="WebSocket_Types.ttcn" />
+    </File_Group>
+</FileGroup>
