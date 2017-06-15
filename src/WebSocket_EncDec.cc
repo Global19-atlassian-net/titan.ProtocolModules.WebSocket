@@ -67,7 +67,7 @@ void f__WebSocket__Encode(const WebSocket__PDU& pl__pdu, OCTETSTRING& pl__data,
 
   // encode size
   if(payload_size<126){
-    *data_ptr|=(payload_size&0x7);
+    *data_ptr|=(payload_size&0x7F);
     data_ptr++;
   } else if (payload_size<65536) { // 16 bit unsigned max
     size_t orig_p_size=payload_size; 
